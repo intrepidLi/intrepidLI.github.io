@@ -1,14 +1,14 @@
 ---
-title: External Project
-summary: An example of linking directly to an external project website using `external_link`.
+title: BUAA Price Comparison Flea Market
+summary: A front-end and back-end interactive website using ReactJS, Flask framework and Huawei Cloud Database, including user system, comment system, commodity trading system and other functions.
 tags:
-  - Demo
-date: "2016-04-27T00:00:00Z"
+  - Database
+date: "2023-12-28T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: https://example.org
+external_link: https://github.com/intrepidLi/BUAA_DataBase_2023
 
-image:
-  caption: Photo by Toa Heftiba on Unsplash
-  focal_point: Smart
+# image:
+#   caption: Photo by Toa Heftiba on Unsplash
+#   focal_point: Smart
 ---
