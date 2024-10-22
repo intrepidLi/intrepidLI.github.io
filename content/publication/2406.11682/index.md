@@ -1,14 +1,17 @@
 ---
-title: 'WaterBench: Towards Holistic Evaluation of Watermarks for Large Language Models'
+title: 'Knowledge-to-Jailbreak: One Knowledge Point Worth One Attack'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - Shangqing Tu
+  - Zhuoran Pan
+  - Wenxuan Wang
+  - Zhexin Zhang
   - admin
-  - Yushi Bai
   - Jifan Yu
+  - Hongning Wang
   - Lei Hou
   - Juanzi Li
 
@@ -17,7 +20,7 @@ author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
 
-date: '2023-11-01T00:00:00Z'
+date: '2024-06-17T15:59:59Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
@@ -26,16 +29,16 @@ publishDate: '2017-01-01T00:00:00Z'
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['conference paper']
+publication_types: ['article']
 
 # Publication name and optional abbreviated publication name.
-publication: Accepted to [ACL 2024](https://aclanthology.org/2024.acl-long.83/)
-publication_short: Accepted to *ACL 2024*
+publication: Preprint In [Arxiv 2406.11682](https://arxiv.org/abs/2406.11682)
+publication_short: Preprint In *Arxiv*
 
-abstract: "To mitigate the potential misuse of large language models (LLMs), recent research has developed watermarking algorithms, which restrict the generation process to leave an invisible trace for watermark detection. Due to the two-stage nature of the task, most studies evaluate the generation and detection separately, thereby presenting a challenge in unbiased, thorough, and applicable evaluations. In this paper, we introduce WaterBench, the first comprehensive benchmark for LLM watermarks, in which we design three crucial factors: (1) For benchmarking procedure, to ensure an apples-to-apples comparison, we first adjust each watermarking method’s hyper-parameter to reach the same watermarking strength, then jointly evaluate their generation and detection performance. (2) For task selection, we diversify the input and output length to form a five-category taxonomy, covering 9 tasks. (3) For evaluation metric, we adopt the GPT4-Judge for automatically evaluating the decline of instruction following abilities after watermarking. We evaluate 4 open-source watermarks on 2 LLMs under 2 watermarking strengths and observe the common struggles for current methods on maintaining the generation quality."
+abstract: "Large language models (LLMs) have been increasingly applied to various domains, which triggers increasing concerns about LLMs' safety on specialized domains, e.g. medicine. However, testing the domain-specific safety of LLMs is challenging due to the lack of domain knowledge-driven attacks in existing benchmarks. To bridge this gap, we propose a new task, knowledge-to-jailbreak, which aims to generate jailbreaks from domain knowledge to evaluate the safety of LLMs when applied to those domains. We collect a large-scale dataset with 12,974 knowledge-jailbreak pairs and fine-tune a large language model as jailbreak-generator, to produce domain knowledge-specific jailbreaks. Experiments on 13 domains and 8 target LLMs demonstrate the effectiveness of jailbreak-generator in generating jailbreaks that are both relevant to the given knowledge and harmful to the target LLMs. We also apply our method to an out-of-domain knowledge base, showing that jailbreak-generator can generate jailbreaks that are comparable in harmfulness to those crafted by human experts."
 
 # Summary. An optional shortened abstract.
-summary: "In this paper, we introduce WaterBench, the first comprehensive benchmark for LLM watermarks, in which we design three crucial factors:..."
+summary: "We collect a large-scale dataset with 12,974 knowledge-jailbreak pairs and fine-tune a large language model as jailbreak-generator, to produce domain..."
 
 tags: []
 
@@ -47,8 +50,8 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: './2024.acl-long.83.pdf'
-url_code: 'https://github.com/THU-KEG/WaterBench'
+url_pdf: './2406.11682v1.pdf'
+url_code: 'https://github.com/THU-KEG/Knowledge-to-Jailbreak'
 # url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
 # url_poster: ''
 # url_project: ''

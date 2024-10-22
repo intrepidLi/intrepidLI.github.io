@@ -64,12 +64,24 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: Research Assistant
+          company: MISC Lab, CUHK
+          company_url: 'https://misc-lab.cse.cuhk.edu.hk/'
+          company_logo: misc_lab
+          location: Hong Kong SAR, China
+          date_start: '2024-04-01'
+          date_end: '2024-09-21'
+          description: Design a new method for transferring language model watermarks to image-to-text models.
+
+
+
+        - title: Research Assistant
           company: Knowledge Engineering Group(KEG), THU
           company_url: 'https://keg.cs.tsinghua.edu.cn/'
           company_logo: THU_keg
           location: Beijing, China
           date_start: '2023-04-01'
           date_end: ''
+          description: Design a comprehensive benchmark for evaluating LLM watermark algorithms called WaterBench. Learn about methods for LLM jailbreaking and defense.
           # description: |2-
           #     Responsibilities include:
 
@@ -280,6 +292,15 @@ sections:
           # organization_url: https://www.edx.org
           title: Third-class Prize of the 14th Lanqiao Cup C/C++ Graduate Group
           url: ''
+        - # certificate_url: https://www.edx.org
+          date_end: ''
+          date_start: '2024-05-25'
+          description: ''
+          # icon: edx
+          organization: Ministry of Industry and Information Technology, China
+          # organization_url: https://www.edx.org
+          title: Second-class Prize of the 15th Lanqiao Cup Python A Group
+          url: ''
     design:
       columns: '2'
   # - block: contact
@@ -333,31 +354,34 @@ sections:
   #         captcha: false
   #   design:
   #     columns: '2'
-  - block: collection
-    id: posts
-    content:
-      title: Some Blogs
-      subtitle: ''
-      text: ''
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        folders:
-          - post
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: compact
-      columns: '2'
+
+
+  
+  # - block: collection
+  #   id: posts
+  #   content:
+  #     title: Some Blogs
+  #     subtitle: ''
+  #     text: ''
+  #     # Choose how many pages you would like to display (0 = all pages)
+  #     count: 5
+  #     # Filter on criteria
+  #     filters:
+  #       folders:
+  #         - post
+  #       author: ""
+  #       category: ""
+  #       tag: ""
+  #       exclude_featured: false
+  #       exclude_future: false
+  #       exclude_past: false
+  #       publication_type: ""
+  #     # Choose how many pages you would like to offset by
+  #     offset: 0
+  #     # Page order: descending (desc) or ascending (asc) date.
+  #     order: desc
+  #   design:
+  #     # Choose a layout view
+  #     view: compact
+  #     columns: '2'
 ---

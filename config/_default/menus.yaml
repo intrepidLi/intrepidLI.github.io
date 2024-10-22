@@ -19,9 +19,13 @@ main:
   - name: Awards
     url: '#awards'
     weight: 50
-  - name: Blogs
-    url: '#posts'
-    weight: 60
+
+
+  # - name: Blogs
+  #   url: '#posts'
+  #   weight: 60
+
+  
   # - name: Contact
   #   url: '#contact'
   #   weight: 60

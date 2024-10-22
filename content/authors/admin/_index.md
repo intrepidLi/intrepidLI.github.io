@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Third-year BEng student in Computer Science
+role: Fourth-year BEng student in Computer Science
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -29,9 +29,11 @@ bio: My research interests include natural language processing and deep learning
 
 # Interests to show in About widget
 interests:
-  - Natural Language Processing
-  - Computational Linguistics
   - Artificial Intelligence
+  - Machine Learning
+  - Natural Language Processing
+  - Data Science and System
+  
 
 # Education to show in About widget
 education:
@@ -120,5 +122,5 @@ social:
 highlight_name: true
 ---
 
-I'm a BEng student at Beihang University, majoring in Computer Science and Technology. I'm interested in the field of natural language processing and deep learning. I'd like to make computer understand human language better and help people solve problems in their daily life. Here is my [English CV](uploads/resume-zh_EN.pdf) and [Chinese CV](uploads/resume-zh_CN.pdf).
+I'm a BEng student at Beihang University, majoring in Computer Science and Technology. I'm now interested in the fields of artifical intelligence. I'd like to make computer understand human language better and help people solve problems in their daily life. Here is my [English CV](uploads/resume_en.pdf) and [Chinese CV](uploads/resume_zh.pdf). I'm currently looking for a PhD position in Computer Science. If you are interested in my research, please feel free to contact me.
 {style="text-align: justify;"}
